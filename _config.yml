@@ -1,0 +1,35 @@
+# GitHub Pages configuration for Irshaad
+title: "Irshaad - Shayari aur Tasveerein"
+description: "A fusion blend of shayaris and photographs - where words paint pictures and pictures tell stories"
+baseurl: ""
+url: "https://keonerf.github.io/irshaad"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - .git/
+
+# Include files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO settings
+author: "keonerf"
+lang: "en"
+
+# Social media and metadata
+social:
+  name: "Irshaad"
+  links:
+    - "https://github.com/keonerf/irshaad"
